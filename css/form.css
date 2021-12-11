@@ -1,0 +1,35 @@
+.WebContainer{
+    /* width: 100%;
+    height: auto;
+    background-color: #F7F7F7;
+    border-radius: 5px; */
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: left; 
+        padding: 20px 20px;
+        background-color: white;
+        padding-top: 30px;
+}
+.logo-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    padding-right: 40px;
+    font-weight: bold;
+    font-size : 20px;
+   }
