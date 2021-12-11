@@ -22,7 +22,7 @@
         </div>
     </header>
     <div class="form-size">
-        <form>
+        <form action="#" class="form" onreset="resetForm()" onsubmit="save()">
             <div class="person">
                 <div class="person-address">Person Address Form</div>
                 <img class="form-head-image" src="../asset/icons8-cancel-32.png" alt="logo">
@@ -75,8 +75,8 @@
                     <error-output class="tel-error" ></error-output>
                 </div>
                 <div>
-                    <button type="submit" class="button button-submit" onsubmit="save()" id="submitButton">Add</button>
-                    <button type="reset" class="button button-reset" onreset="resetForm()"
+                    <button type="submit" class="button button-submit"  id="submitButton">Add</button>
+                    <button type="reset" class="button button-reset" 
                         id="resetButton">Reset</button>
                 </div>
             </div>
