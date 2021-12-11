@@ -46,9 +46,10 @@
     font-style: italic;
     
   }
+ 
   .form-size{
+    margin-top: 25px;
     min-height: calc(100% - 70px);
-    /* background-color: #f7f7f7; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -105,4 +106,36 @@
       padding-left: 50px;
       padding-right: 50px;
       padding-bottom: 15px;
+  }
+
+  #error-output {
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+  }
+  .name-error{
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+  }
+  .address-error{
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    color: red;
+  }
+  .tel-error{
+    margin-left: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+  }
+  .zip-error{
+
+    margin-left: 6px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
   }

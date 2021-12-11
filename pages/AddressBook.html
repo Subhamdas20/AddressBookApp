@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/home.css">
+    
     <title>AddressBook</title>
 </head>
 
@@ -32,7 +33,7 @@
                     <br>
                     <input type="text" class="input-name" id="name" name="name" placeholder="Your name" autocomplete="off"
                         required>
-                    <error-output></error-output>
+                    <error-output id = "error-output" class="name-error"></error-output>
                 </div>
 
                 <div>
@@ -40,7 +41,7 @@
                     <br>
                     <textarea class="addressbook" name="address" id="address" placeholder="Your Address"
                         autocomplete="off" required></textarea>
-                    <error-output class="address-error"></error-output>
+                    <error-output style="color: red;"class="address-error"></error-output>
                 </div>
                 <div>
                     <label for="city"></label>
@@ -64,14 +65,14 @@
                     </select>
                     <label for="zip"></label>
                     <input type="text" id="zip" name="zip" autocomplete="off" placeholder="ZipCode" required>
-                    <error-output></error-output>
+                    <error-output class="zip-error"></error-output>
                 </div>
                 <div>
                     <label for="phoneNumber"></label>
                   <br>
                     <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Phone Number" autocomplete="off"
                         required>
-                    <error-output></error-output>
+                    <error-output class="tel-error" ></error-output>
                 </div>
                 <div>
                     <button type="submit" class="button button-submit" onsubmit="save()" id="submitButton">Add</button>
@@ -81,6 +82,7 @@
             </div>
         </form>
     </div>
+    <script  src="../js/AddressBook_form.js"  ></script>
+    <script  src="../js/AddressData.js"  ></script>
 </body>
-
 </html>
